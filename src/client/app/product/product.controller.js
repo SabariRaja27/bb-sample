@@ -64,14 +64,7 @@
         vm.marketingBeerListData=[];
         $rootScope.onDeckBeerAvailable = false;
         vm.onDeckBeer=[];
-    vm.products = [];
-        vm.imageContext = bb_config.imageContext;
-        vm.draftBeers = [];
-        vm.videoAssets = [];
-        vm.imageAssets = [];
-        vm.typeSequences=[];
-        vm.assets=[];
-        vm.allAssets=[];
+
         if((localStorage["angular-cache.caches.menusCache.data." + bb_config.restApiHost + "bbtv/getBeerBoardMenuData?locationId=" + bb_config.locationId + "&bar_id=" + bb_config.bar_id + "&product_type=" + bb_config.product_type] != undefined)
          ||(localStorage["angular-cache.caches.menusCache.data." + bb_config.restApiHost + "bbtv/getBeerBoardMenuData?locationId=" + bb_config.locationId + "&bar_id=" + bb_config.bar_id + "&product_type=" + bb_config.product_type] != null))
         {
